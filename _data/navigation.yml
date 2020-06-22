@@ -2,7 +2,7 @@
 main:
   - title: "About Me"
     url:
-- title: "CAD Projects"
+  - title: "CAD Projects"
   url:
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
