@@ -1,7 +1,9 @@
 # main links
 main:
   - title: "About Me"
-    url: 
+    url:
+- title: "CAD Projects"
+  url:
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
