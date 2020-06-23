@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ---
 layout: archive
 permalink: /DIY-Projects/
