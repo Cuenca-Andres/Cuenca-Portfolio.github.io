@@ -1,6 +1,6 @@
 ---
 layout: archive
 permalink: /DIY-Projects/
-title: "DIY Projects created by Andres Cuenca"
+title: "DIY Projects Created by Andres Cuenca"
 author_profile: true
 ---
