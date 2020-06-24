@@ -41,13 +41,13 @@ integrated to a plant system that is derive from a electro-mechanical equations 
 In this example, a SCARA robot was designed and dimension from scratched. Below are
 some drawings to illustrate how the DC motors were mounted to the robot model.
 
-SCARA: Side View
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/scaradrawing1.jpg" alt="">
 
 The first motor drives the first and second rotating linkage. The second motor is directly
 coupled to the second rotating linkage.
 
-SCARA: Top View
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/scaradrawing3.jpg" alt="">
 
 Part of process of integrating the PID controller to the plant system equation is to
