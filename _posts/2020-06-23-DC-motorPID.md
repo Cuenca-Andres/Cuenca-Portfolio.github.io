@@ -22,7 +22,12 @@ It's recommended to complete the project below before jumping into the Arduino P
 
 ### Background on PID Controller
 
- For the DC motor shaft to turn at the desire angular position, the steady-state error of the angular position should equal to zero, without experiencing any excessive overshoot, and a low settling time within a range of 15-20 seconds. To reach this goal, a PID (proportional, integral and derivative) controller code was complied on an Arduino. There are three coefficients Kp, Ki and Kd that must be properly tuned to get an correct response for the DC motor. For this task, a quadrature encoder is applied to get feedback for the closed-control loop. Once the angular position is computed on the Arduino, the proportional, integral and derivative response are computed and the sum of all three coefficients will generate the output that must match to the desire setpoint.
+ For the DC motor shaft to turn at the desire angular position, the steady-state error of the angular position should equal to zero, without experiencing any excessive overshoot, and a low settling time within a range of 15-20 seconds. To reach this goal, a PID (proportional, integral and derivative) controller code was complied on an Arduino. There are three coefficients Kp, Ki and Kd that must be properly tuned to get a correct response for the DC motor. For this task, a quadrature encoder is applied to read pulse counts from the optical sensor and the Arduino uses this information to compute the angular position and velocity. In addition, the Arduino embeds the PID controller and keeps track of the setpoint and process variables. A PID controller operates inside a closed loop system diagram which is shown below.
+
+
+## Closed Loop System Diagram
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/CL-diagramV.2.jpg" alt="">
 
 
 
