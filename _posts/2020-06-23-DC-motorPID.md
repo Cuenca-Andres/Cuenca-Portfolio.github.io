@@ -15,6 +15,10 @@ This DIY post covers on how to set up a DC motor with quadrature encoder, and
 compile an Arduino PID controller code, to turn the shaft of the motor to any desire
 setpoint value.
 
+It's recommended to complete the project below before jumping into the Arduino PID controller.
+ 
+[Reading Data from Quadrature Encoder of DC motor](https://cuenca-andres.github.io/Cuenca-Portfolio.github.io/DC_motor_quad/)
+
 ### Materials for this project
 For this project the following materials were purchased
 * 1 Arduino Uno Microcontroller
@@ -33,20 +37,9 @@ For this project the following materials were purchased
 
 ### Flowchart of PID Controller
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/PID-flowChart.jpg" alt="">
 
 
 
-### Wiring Connections
-<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/dcMotorWiring.jpg" alt="">
-
-Simple Wiring Connections
-
-* A 12V voltage supply will be directly connected to 12V and GND pins of the L298N-motor driver
-* Arduino pins 6,7 and 8 will be connected to l298N motor driver pins ENA, IN1, and IN2
-* 5V Arduino pin connects to the Quadrature sensor 5V pin
-* DC Motor Negative Polarity is wired to L298N motor driver pin OUT2
-* DC Motor Positive Polarity is wIRed to L298N motor driver pin OUT1
-* Arduino pins 2 and 3 will be connected to the DC motor encoders A and B, respectively.
-* DC motor GND will share common ground to the Arduino, 12V power supply and motor driver.  
 
 ### Arduino Code
