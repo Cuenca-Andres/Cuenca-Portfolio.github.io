@@ -31,7 +31,20 @@ It's recommended to complete the project below before jumping into the Arduino P
 <img src="{{ site.url }}{{ site.baseurl }}/images/PID-flowChart.jpg" alt="">
 
 
+### Tuning Kp, Ki and Kd variables
 
+Often times a DC motor will have a specification sheet of proper coefficients for the
+Kp, Ki and Kd. However, assuming that a motor was properly selected and size for a project,
+for instance a robot linkage, then the mass and inertia of the rigid body must be analyzed.
+Tuning these variable is crucial to achieve a smooth and desire angular velocity and angular position for
+the DC motor. It would take hours of making assumptions for properly tuning these variables.
+However I complied a MATLAB script that can save time and analyze step response graphs
+that fluctuate given the electro-mechanical equations of the DC motor and robotic arm. Analyzing
+the step response graphs can determine the overshoot, settling-time, and achieve a steady-state error equal to zero.
+Below is a MATLAB script was complied to represent the linkages of a SCARA robot.
+
+* post picture of scara There
+* post matlab script here
 
 ### Arduino Code
 [Arduino PID Code for DC Motor](https://github.com/Cuenca-Andres/RoboticsControlsSystem/blob/master/Arduino_PID_Controller_DC-Motor)
