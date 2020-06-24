@@ -33,9 +33,30 @@ It's recommended to complete the project below before jumping into the Arduino P
 
 ### Tuning Kp, Ki and Kd variables
 
-Often times a DC motor will have a specification sheet of proper coefficients for the
-Kp, Ki and Kd. However, assuming that a motor was properly selected and size for a project,
-for instance a robot linkage, then the mass and inertia of the rigid body must be analyzed.
+Often times when a DC motor is purchase a manufacture specifications sheet will have
+the proper coefficients for the Kp, Ki and Kd. However, when this information is not available or if a PID controller is
+integrated to a plant system that is derive from a electro-mechanical equations of the load and inertia acting on the DC motor,
+ then proper tuning is required.  
+
+In this example, a SCARA robot was designed and dimension from scratched. Below are
+some drawings to illustrate how the DC motors were mounted to the robot model.
+
+SCARA: Side View
+<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/scaradrawing1.jpg" alt="">
+
+The first motor drives the first and second rotating linkage. The second motor is directly
+coupled to the second rotating linkage.
+
+SCARA: Top View
+<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/scaradrawing3.jpg" alt="">
+
+Part of process of integrating the PID controller to the plant system equation is to
+analyze the mass and load inertia of the entire model and apply this process to find
+the proper tuning variables that can meet the design specifications such as achieving
+zero steady-state error, low rising time and low overshoot.
+
+
+
 Tuning these variable is crucial to achieve a smooth and desire angular velocity and angular position for
 the DC motor. It would take hours of making assumptions for properly tuning these variables.
 However I complied a MATLAB script that can save time and analyze step response graphs
@@ -43,7 +64,7 @@ that fluctuate given the electro-mechanical equations of the DC motor and roboti
 the step response graphs can determine the overshoot, settling-time, and achieve a steady-state error equal to zero.
 Below is a MATLAB script was complied to represent the linkages of a SCARA robot.
 
-* post picture of scara There
+
 * post matlab script here
 
 ### Arduino Code
