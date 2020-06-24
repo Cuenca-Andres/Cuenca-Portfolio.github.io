@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Getting Data from DC Motor integrated with Quadrature Encoder"
-author_profile: true
 date: 2020-06-16
 tags: [Arduino, DC Motors, Quadrature Encoders, Robotics]
 excerpt: "DC Motors, Quadrature Encoder, Arduino"
@@ -53,3 +52,18 @@ if the DC motor shaft rotates counterclockwise.
 
 
 ### Wiring Connections
+<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/dcMotorWiring.jpg" alt="">
+
+Simple Wiring Connections
+
+* A 12V voltage supply will be directly connected to 12V and GND pins of the L298N-motor driver
+* Arduino pins 6,7 and 8 will be connected to l298N motor driver pins ENA, IN1, and IN2
+* 5V Arduino pin connects to the Quadrature sensor 5V pin
+* DC Motor Negative Polarity is wired to L298N motor driver pin OUT2
+* DC Motor Positive Polarity is wIRed to L298N motor driver pin OUT1
+* Arduino pins 2 and 3 will be connected to the DC motor encoders A and B, respectively.
+* DC motor GND will share common ground to the Arduino, 12V power supply and motor driver.  
+
+### Arduino Code
+
+[Arduino Quadrature Encoder Code](https://github.com/Cuenca-Andres/RoboticsControlsSystem/blob/master/Arduino_DC_Motor_Quadrature_EncoderV.2)
