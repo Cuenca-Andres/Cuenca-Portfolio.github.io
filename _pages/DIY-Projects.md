@@ -5,5 +5,4 @@ title: "DIY Projects Created by Andres Cuenca"
 author_profile: true
 ---
 
-This page is under development, please click on 'Andres Cuenca Portfolio' to
-look at uploaded DIY project posts. Thank you!
+[Compiling Arduino PID Controller for DC Motor](https://cuenca-andres.github.io/Cuenca-Portfolio.github.io/DC-motorPID/)
