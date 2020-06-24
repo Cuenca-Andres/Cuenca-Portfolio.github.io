@@ -16,18 +16,9 @@ compile an Arduino PID controller code, to turn the shaft of the motor to any de
 setpoint value.
 
 It's recommended to complete the project below before jumping into the Arduino PID controller.
- 
+
 [Reading Data from Quadrature Encoder of DC motor](https://cuenca-andres.github.io/Cuenca-Portfolio.github.io/DC_motor_quad/)
 
-### Materials for this project
-For this project the following materials were purchased
-* 1 Arduino Uno Microcontroller
-* 1 DC Motor with quadrature encoder
-* 1 L298N H-Bridge (motor driver)
-* 1 Breadboard
-* 1 12V Power Supply
-* some wires for proper connection
-* Also, used an Arduino IDE to compile and test code (more to that later)
 
 ### Background on PID Controller
 
@@ -43,3 +34,4 @@ For this project the following materials were purchased
 
 
 ### Arduino Code
+[Arduino PID Code for DC Motor](https://github.com/Cuenca-Andres/RoboticsControlsSystem/blob/master/Arduino_PID_Controller_DC-Motor)
