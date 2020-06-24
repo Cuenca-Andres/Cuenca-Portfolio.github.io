@@ -8,12 +8,12 @@ excerpt: "DC Motors, Quadrature Encoder, Arduino"
 
 ## Written by: Andres Cuenca
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/arduino-PID.jpg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/images/arduino-PID.jpg" alt="">
 
 ### Introduction
 This DIY post covers on how to set up a DC motor with quadrature encoder, and
 compile an Arduino PID controller code, to turn the shaft of the motor to any desire
-setpoint value. 
+setpoint value.
 
 ### Materials for this project
 For this project the following materials were purchased
