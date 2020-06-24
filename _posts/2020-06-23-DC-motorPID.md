@@ -68,6 +68,11 @@ However I complied a MATLAB script that can save time and analyze step response 
 that respond to the given the electro-mechanical equations of the DC motor and robotic arm. Analyzing
 the step response graphs can determine the overshoot, settling-time, and achieve a steady-state error equal to zero.
 
+[MATLAB: PID Controller Simulation to Tune Motors](https://github.com/Cuenca-Andres/RoboticsControlsSystem/blob/master/SCARA:%20PID-Simulation-Program)
+
+Once the tuning coefficients meet and satisfy the design criteria, these values can be transpose and
+tested on the actual hardware. Below is a complied Arduino PID code to drive the shaft of the DC motor to
+desire angular position.
 
 
 * post matlab script here
