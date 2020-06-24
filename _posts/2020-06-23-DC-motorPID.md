@@ -74,8 +74,5 @@ Once the tuning coefficients meet and satisfy the design criteria, these values 
 tested on the actual hardware. Below is a complied Arduino PID code to drive the shaft of the DC motor to
 desire angular position.
 
-
-* post matlab script here
-
 ### Arduino Code
 [Arduino PID Code for DC Motor](https://github.com/Cuenca-Andres/RoboticsControlsSystem/blob/master/Arduino_PID_Controller_DC-Motor)
