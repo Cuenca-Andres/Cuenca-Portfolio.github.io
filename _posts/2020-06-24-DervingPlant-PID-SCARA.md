@@ -8,12 +8,13 @@ excerpt: "DC Motors, Quadrature Encoder, Arduino"
 
 ## Written by: Andres Cuenca
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/industry-logos/matlab-logo.jpg" alt="">
+
 ### Introduction
 
 This post will introduce on how to build a PID (proportional, integral, derivative) simulator using MATLAB to generate
 step response graphs. This post requires to have a solid background in mechanical and electrical systems.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/industry-logos/matlab-logo.jpg" alt="">
 
 Suppose a robotic linkage is driven by a DC motor, a timing belt, and gears. The goal is for the
 DC motor to generate enough torque to rotate the robotic linkage to a desirable
