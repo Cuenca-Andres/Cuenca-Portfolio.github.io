@@ -49,4 +49,28 @@ The PID controller equation is the following.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/PID-eqn.JPG" alt="">
 
-Each coefficient will be properly tuned according to how the a step response graph fluctuates in respect to the PID controller and plant system equations, and achieving the design criteria.
+To meet the design criteria the proportional, integral and derivative coefficients will be properly tuned accordingly to the behavior of a step response graph that changes in respect to the PID controller and plant system equations.
+
+### Proportional
+
+
+
+### Proportional Integral
+
+
+
+### Proportional Integral Derivative
+
+
+
+### Next Steps
+
+After successfully tuning the variables, then the next step is to test these coefficients on the actual hardware.
+Check out the Arduino PID Code to test and experiment.
+
+[Arduino PID Controller Code](https://github.com/Cuenca-Andres/RoboticsControlsSystem/blob/master/Arduino_PID_Controller_DC-Motor)
+
+
+### MATLAB PID Simulation Script
+
+[MATLAB PID Simulation Script](https://github.com/Cuenca-Andres/RoboticsControlsSystem/blob/master/SCARA:%20PID-Simulation-Program)
