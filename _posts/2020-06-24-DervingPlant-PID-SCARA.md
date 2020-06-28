@@ -43,4 +43,4 @@ to understand how much load is transposed to the shaft of the DC motor.
 
 Therefore a plant system will be derived to represent the load of the linkages transpose to the shaft of DC motor.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/Plant-system-eqn.JPG" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/transfer-eqn.JPG" alt="">
