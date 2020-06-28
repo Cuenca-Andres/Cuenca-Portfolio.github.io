@@ -27,10 +27,20 @@ this MATLAB simulation program will properly tune each coefficient until the des
 ### Design Criteria
 
 
+### Control Loop System
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/motor-gear-CL.jpg" alt="">
 
 ### Deriving Plant System for Joint of Robot
 
-For this simulation program the first joint and linkage of the SCARA robot are driven by a timing belt, gears and DC motor.
+For this simulation program the first joint of the SCARA robot functions on rotating the first linkage of the robot by applying a timing belt, gears and DC motor,
+as shown by the illustration below.
 
-Below is a diagram that illustrates a CAD model of the robot.
+<img src="{{ site.url }}{{ site.baseurl }}/images/SCARA_Robot1.jpg" alt="">
+
+Therefore the inertia load of the linkages  can be computed on SolidWorks and can be applied
+to understand how much load is transposed to the shaft of the DC motor.
+
+Therefore a plant system will be derived to represent the load of the linkages transpose to the shaft of DC motor.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/Plant-system-eqn.JPG" alt="">
