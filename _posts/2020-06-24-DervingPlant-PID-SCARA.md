@@ -27,9 +27,6 @@ this MATLAB simulation program will properly tune each coefficient until the des
 ### Design Criteria
 
 
-### Control Loop System
-
-<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/motor-gear-CL.jpg" alt="">
 
 ### Deriving Plant System for Joint of Robot
 
@@ -38,9 +35,18 @@ as shown by the illustration below.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/SCARA_Robot1.jpg" alt="">
 
-Therefore the inertia load of the linkages  can be computed on SolidWorks and can be applied
-to understand how much load is transposed to the shaft of the DC motor.
 
-Therefore a plant system will be derived to represent the load of the linkages transpose to the shaft of DC motor.
+Therefore a plant system that represents the inertia load of the linkages are transpose to the shaft of DC motor.
+The following equation and coefficients have been analyzed and defined.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/transfer-eqn.JPG" alt="">
+
+### Control Loop System
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/motor-gear-CL.jpg" alt="">
+
+The PID controller equation is the following.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/PID-eqn.JPG" alt="">
+
+Each coefficient will be properly tuned according to how the a step response graph fluctuates in respect to the PID controller and plant system equations, and achieving the design criteria.
