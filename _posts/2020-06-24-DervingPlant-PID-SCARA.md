@@ -71,7 +71,7 @@ Step Response graphs of proportional gain equal to 10 and various integral coeff
 
 Characteristics of step response graphs in respect to Kp = 10, and Ki equal to 0.01, 10 and 30
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/PI-chara.jpg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/PI-chara.JPG" alt="">
 
 ### Proportional Integral Derivative
 
@@ -82,7 +82,7 @@ Step Response graphs of proportional gain equal to 10, Ki equal to 0.01 and vari
 
 Characteristics of step response graphs in respect to Kp = 10, Ki = 0.01 and Kd = 0.1 , 1 and 3.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/PID-chara.jpg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/PID-chara.JPG" alt="">
 
 
 ### Next Steps
