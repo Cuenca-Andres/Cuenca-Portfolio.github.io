@@ -25,8 +25,10 @@ a smooth motion path for a robot that is driven by each DC motor. To understand 
 this MATLAB simulation program will properly tune each coefficient until the design criteria is met.
 
 ### Design Criteria
-
-
+* Zero Percent Overshoot
+* Rise time < 1s
+* Settling time < 1s
+* Steady-State Error = 0
 
 ### Deriving Plant System for Joint of Robot
 
@@ -53,14 +55,34 @@ To meet the design criteria the proportional, integral and derivative coefficien
 
 ### Proportional
 
+Following proportional step response graphs relative to various proportional gain values.
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/P-chart.jpg" alt="">
+
+Characteristics of step response graphs in respect to Kp equal to 1, 11 and 31
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/KP-chara.JPG" alt="">
 
 ### Proportional Integral
 
+Step Response graphs of proportional gain equal to 10 and various integral coefficients
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/PI-chart.jpg" alt="">
+
+Characteristics of step response graphs in respect to Kp = 10, and Ki equal to 0.01, 10 and 30
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/PI-chara.jpg" alt="">
 
 ### Proportional Integral Derivative
 
+Step Response graphs of proportional gain equal to 10, Ki equal to 0.01 and various derivative coefficients
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/PID-Chart.jpg" alt="">
+
+
+Characteristics of step response graphs in respect to Kp = 10, Ki = 0.01 and Kd = 0.1 , 1 and 3.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/DCmotor/PID-chara.jpg" alt="">
 
 
 ### Next Steps
