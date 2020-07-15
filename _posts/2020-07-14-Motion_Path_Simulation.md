@@ -12,6 +12,14 @@ excerpt: "Robotics, Motion Planning, Motion Path, MATLAB "
 
 ## Introduction
 
+This post introduces how to set up a motion path for a SCARA (Selective Compliance Robotic Arm) robot.
+This custom made SCARA model was design on SolidWorks 2020. An urdf file that consist of the model's
+dimensions, mass, inertia for each linkages, and stl files was generated on SolidWorks and can be imported to any
+program such as ROS (Robotics Operating System) or MATLAB to view and control the linkages of the robot.
+
+To generate a motion path of the robot the Inverse Kinematics was used for obtaining a limited and possible points that the end-effector
+of a robot can travel. Generating a MATLAB code, optimizes this procedure and provides the user a map of possible px and py points.
+
 
 
 
@@ -22,7 +30,7 @@ excerpt: "Robotics, Motion Planning, Motion Path, MATLAB "
 
 ## Background
 
-
+This post assumes that the user has an understanding on how to set up the Forward and Inverse Kinematic algorithms for a robot.  
 
 ## Demo Video
 
