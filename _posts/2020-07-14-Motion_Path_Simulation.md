@@ -20,14 +20,16 @@ program such as ROS (Robotics Operating System) or MATLAB to view and control th
 To generate a motion path of the robot the Inverse Kinematics was used for obtaining a limited and possible points that the end-effector
 of a robot can travel. Generating a MATLAB code, optimizes this procedure and provides the user a map of possible px and py points.
 
-Below is a graph generated on MATLAB showing possible px and py points of the end-effector.
+Below is a graph generated on MATLAB showing possible px and py points of the end-effector of SCARA robot.
 <img src="{{ site.url }}{{ site.baseurl }}/images/robotMotionPlant/PointsRRPR_robot.jpg" alt="">
 
 
-## Required Programs
+## Required Programs and Background
 * MATLAB (preferably version 2020a)
 * MATLAB Robotics Control Toolbox
 * Some Knowledge in Linear Algebra (matrices) would help
+* Understanding of Forward and Inverse Kinematics
+
 
 ## Background
 
