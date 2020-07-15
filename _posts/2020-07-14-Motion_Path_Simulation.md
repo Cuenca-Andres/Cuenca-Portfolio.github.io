@@ -26,4 +26,4 @@ excerpt: "Robotics, Motion Planning, Motion Path, MATLAB "
 ## GitHub Code
 The MATLAB code is available on my Github page so any one can download and run the code on MATLAB.
 
-[Arduino PID Controller Code](https://github.com/Cuenca-Andres/RoboticsControlsSystem/blob/master/SCARA_Motion_Path_Simulation)
+[SCARA Robot Motion Path Simulation](https://github.com/Cuenca-Andres/RoboticsControlsSystem/blob/master/SCARA_Motion_Path_Simulation)
