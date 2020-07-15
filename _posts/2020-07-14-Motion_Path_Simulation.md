@@ -8,7 +8,11 @@ excerpt: "Robotics, Motion Planning, Motion Path, MATLAB "
 
 ## Written by: Andres Cuenca
 
+<img src="{{ site.url }}{{ site.baseurl }}/images/robotMotionPlant/scara_robot_model3.jpg" alt="">
+
 ## Introduction
+
+
 
 
 ## Required Programs
