@@ -37,14 +37,8 @@ This post assumes that the user has an understanding on how to set up the Forwar
 
 ## Demo Video
 
-<iframe width="560"
-        height="315"
-        src="https://www.youtube.com/watch?v=QlTGmEkfBEU"
-        frameborder="0"
-        allow="autoplay; encrypted-media"
-        allowfullscreen></iframe>
 
-        {% include video id="QlTGmEkfBEU" provider="youtube" %}
+{% include video id="QlTGmEkfBEU" provider="youtube" %}
 
 
 ## GitHub Code
