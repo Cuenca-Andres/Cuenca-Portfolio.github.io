@@ -5,6 +5,7 @@ title: "SolidWorks CAD Models Design by Andres Cuenca"
 author_profile: true
 ---
 Showcasing some of most recent SolidWorks projects that I worked on!
+Some projects include a live demo video. Check it out!
 
 ## SCARA (Selective Compliance Assembly Robot Arm)
 
@@ -89,6 +90,8 @@ can be purchased at manufacturing suppliers such as Misumi or McMaster.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/waste_robo3.jpg" alt="">
 
+[Waste Sorting Robot Live Demo](https://www.youtube.com/watch?v=lvbw60tRreg)
+
 
 # Vegetable Cutter Mechanism
 
@@ -99,3 +102,6 @@ can be purchased at manufacturing suppliers such as Misumi or McMaster.
 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/veggiecutter2.jpg" alt="">
+
+
+[Veggie Cutter Live Demo ](https://www.youtube.com/watch?v=-8BUauTDQZs&list=PLeH22dC8yxo64XF6rhj2VDS2oFo3W3N2f&index=65&t=0s)
