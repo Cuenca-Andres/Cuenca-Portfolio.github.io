@@ -39,7 +39,7 @@ This post assumes that the user has an understanding on how to set up the Forwar
 
 
 {% include video id="QlTGmEkfBEU" provider="youtube" %}
-
+[SCARA Robot Motion Path Demo](https://www.youtube.com/watch?v=QlTGmEkfBEU&feature=emb_title)
 
 ## GitHub Code
 The MATLAB code is available on my Github page so any one can download and run the code on MATLAB.
