@@ -44,6 +44,9 @@ This post assumes that the user has an understanding on how to set up the Forwar
         allow="autoplay; encrypted-media"
         allowfullscreen></iframe>
 
+        {% include video id="QlTGmEkfBEU" provider="youtube" %}
+
+
 ## GitHub Code
 The MATLAB code is available on my Github page so any one can download and run the code on MATLAB.
 
