@@ -37,6 +37,12 @@ This post assumes that the user has an understanding on how to set up the Forwar
 
 ## Demo Video
 
+<iframe width="560"
+        height="315"
+        src="https://www.youtube.com/watch?v=QlTGmEkfBEU"
+        frameborder="0"
+        allow="autoplay; encrypted-media"
+        allowfullscreen></iframe>
 
 ## GitHub Code
 The MATLAB code is available on my Github page so any one can download and run the code on MATLAB.
