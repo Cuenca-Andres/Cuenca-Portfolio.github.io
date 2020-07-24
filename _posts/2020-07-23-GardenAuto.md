@@ -19,7 +19,7 @@ This is a fun project for those who are interested on building their own indoor 
 nurse vegetables or any desire plants. The time, dedication and patience to grow vegetables at home requires the user to provide an adequate nursery to the plants.
 However for those who don't have time can build this project to grow vegetables or plants at home.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/GardenProject/GardenProject.jpg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/images/GardenProject/gardenProject.jpg" alt="">
 
 ## Background
 
