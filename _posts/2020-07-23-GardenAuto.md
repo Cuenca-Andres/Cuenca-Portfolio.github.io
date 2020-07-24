@@ -41,6 +41,12 @@ The wiring schematic above reflects all the components used in this project  fro
 <img src="{{ site.url }}{{ site.baseurl }}/images/GardenProject/circuit_layout.jpg" alt="">
 
 
+## Circuit Connections
+
+Below are proper connection table for the electronics and sensors to the Mega Arduino microcontroller.
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/GardenProject/ConnectionTable.JGP" alt="">
+
 ## Bill of Materials
 
 Below is a list of materials to help a user get started. Most of these items can be found off the shelf or can be ordered through Amazon.
