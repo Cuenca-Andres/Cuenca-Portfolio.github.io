@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Generating a Motion Path for SCARA Robot on MATLAB"
+title: "Garden Automation Project"
 date: 2020-07-14
-tags: [SCARA Robot, MATLAB, Forward Kinematics, Inverse Kinematics, Motion Path, Robotics]
-excerpt: "Robotics, Motion Planning, Motion Path, MATLAB "
+tags: [Arduino, Garden, Sensors, Automation, Life Science, Smart Garden]
+excerpt: "Closed Loop System, Indoor Project, Gardening, Smart Sensors"
 ---
