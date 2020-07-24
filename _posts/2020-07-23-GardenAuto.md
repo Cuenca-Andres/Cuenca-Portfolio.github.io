@@ -48,6 +48,7 @@ Below is a list of materials to help a user get started. Most of these items can
 <img src="{{ site.url }}{{ site.baseurl }}/images/GardenProject/garden_auto_BOM.JPG" alt="">
 
 
+## Program Code
 Interested for the open-source codes? Check out my Github Page!
 
 [Full GitHub Page]("https://github.com/Cuenca-Andres/Garden-Automation-Project")
