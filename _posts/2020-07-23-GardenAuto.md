@@ -35,6 +35,10 @@ For this project, considering variables such as reading  moisture and  temperatu
 
 
 
+## Circuit Layout
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/GardenProject/circuit_layout.jpg" alt="">
+
 Interested for the open-source codes? Check out my Github Page!
 
 [Full GitHub Page]("https://github.com/Cuenca-Andres/Garden-Automation-Project")
