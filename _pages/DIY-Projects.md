@@ -14,3 +14,5 @@ Enjoy!
 [Reading Data from Quadrature Encoder of DC motor](https://cuenca-andres.github.io/Cuenca-Portfolio.github.io/DC_motor_quad/)
 
 [Using MATLAB to Create and Analyze Step Response Graph](https://cuenca-andres.github.io/Cuenca-Portfolio.github.io/DervingPlant-PID-SCARA/)
+
+[Build Your Own Garden Automation Project](https://cuenca-andres.github.io/Cuenca-Portfolio.github.io/GardenAuto/)
