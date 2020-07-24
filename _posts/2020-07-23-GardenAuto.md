@@ -44,7 +44,8 @@ The wiring schematic above reflects all the components used in this project  fro
 ## Bill of Materials
 
 Below is a list of materials to help a user get started. Most of these items can be found off the shelf or can be ordered through Amazon.
-<img src="{{ site.url }}{{ site.baseurl }}/images/GardenProject/garden_auto_BOM.jpg" alt="">
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/GardenProject/garden_auto_BOM.JPG" alt="">
 
 
 Interested for the open-source codes? Check out my Github Page!
