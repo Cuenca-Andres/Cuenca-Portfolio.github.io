@@ -34,10 +34,15 @@ For this project, considering variables such as reading  moisture and  temperatu
 <img src="{{ site.url }}{{ site.baseurl }}/images/GardenProject/flowchart.jpg" alt="">
 
 
-
 ## Circuit Layout
 
+The wiring schematic above reflects all the components used in this project  from sensors to actuators and the controller.  Switches, motor driver, moisture sensor, temperature sensor, ultrasonic sensor , are all connected to digital pins in  the Arduino Mega. On the other hand, the LCD is connect to the analog pins in the controller. The fan and light bulb are indirectly powered by a 24 Power Supply.
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/GardenProject/circuit_layout.jpg" alt="">
+
+
+
+
 
 Interested for the open-source codes? Check out my Github Page!
 
