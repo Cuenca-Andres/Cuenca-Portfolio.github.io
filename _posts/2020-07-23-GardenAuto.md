@@ -6,7 +6,7 @@ tags: [Arduino, Garden, Sensors, Automation, Life Science, Smart Garden]
 excerpt: "Closed Loop System, Indoor Project, Gardening, Smart Sensors"
 ---
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/GardenProject/arduinoplantlogo.jpg" alt="">
+<img src="{{ site.url }}{{ site.baseurl }}/images/GardenProject/arduinoplantlogo.JPG" alt="">
 
 
 
